@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description>service now workflow</description>
         <internal_name>service_now</internal_name>
-        <label_cache>[{"name":"389899a3-7dfa-497d-8b89-22e9410fda21.__dont_treat_as_error__","label":"2 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"389899a3-7dfa-497d-8b89-22e9410fda21.__action_status__","label":"2 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"389899a3-7dfa-497d-8b89-22e9410fda21.Table","label":"2 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"389899a3-7dfa-497d-8b89-22e9410fda21.Record","label":"2 - Create Task➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c1190ca2-946c-4543-9f61-9dd003c0849a.email","label":"1 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c1190ca2-946c-4543-9f61-9dd003c0849a.__action_status__","label":"1 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"c1190ca2-946c-4543-9f61-9dd003c0849a.__dont_treat_as_error__","label":"1 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
+        <label_cache>[{"name":"389899a3-7dfa-497d-8b89-22e9410fda21.__dont_treat_as_error__","label":"1 - Create Task➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"389899a3-7dfa-497d-8b89-22e9410fda21.__action_status__","label":"1 - Create Task➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"389899a3-7dfa-497d-8b89-22e9410fda21.Table","label":"1 - Create Task➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"389899a3-7dfa-497d-8b89-22e9410fda21.Record","label":"1 - Create Task➛Record","reference":"task","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2604f54c-f748-43ad-95af-dc971ee5374e.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2604f54c-f748-43ad-95af-dc971ee5374e.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"2604f54c-f748-43ad-95af-dc971ee5374e.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Service Now</name>
@@ -51,10 +51,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-11-06 08:40:35</sys_created_on>
         <sys_id>796ec9fc1b831110a77e2f08b04bcb10</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-06 08:52:37</sys_updated_on>
+        <sys_updated_on>2022-11-06 09:09:22</sys_updated_on>
         <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -244,34 +244,10 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=52ed85bc1b831110a77e2f08b04bcbaf"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=52ed85bc1b831110a77e2f08b04bcbaf"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=52ed85bc1b831110a77e2f08b04bcbaf^sys_idNOT IN8621d5b01bc31110a77e2f08b04bcb93,b56ec9fc1b831110a77e2f08b04bcb16"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=52ed85bc1b831110a77e2f08b04bcbaf^sys_idNOT IN5bf411b41bc31110a77e2f08b04bcbd1,b56ec9fc1b831110a77e2f08b04bcb16"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
-        <action_type_parent/>
-        <comment/>
-        <compiled_snapshot/>
-        <display_text/>
-        <flow display_value="Service Now">52ed85bc1b831110a77e2f08b04bcbaf</flow>
-        <order>1</order>
-        <parent_ui_id/>
-        <sys_class_name>sys_hub_action_instance</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-06 08:52:37</sys_created_on>
-        <sys_id>8621d5b01bc31110a77e2f08b04bcb93</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_scope display_value="Service Now">052d05bc1b831110a77e2f08b04bcb9d</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-06 08:52:37</sys_updated_on>
-        <ui_id>c1190ca2-946c-4543-9f61-9dd003c0849a</ui_id>
-    </sys_hub_action_instance>
-    <sys_variable_value action="delete_multiple" query="document_key=8621d5b01bc31110a77e2f08b04bcb93"/>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=8621d5b01bc31110a77e2f08b04bcb93"/>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=8621d5b01bc31110a77e2f08b04bcb93"/>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8621d5b01bc31110a77e2f08b04bcb93"/>
-    <sys_hub_action_instance action="INSERT_OR_UPDATE">
-        <action_inputs/>
-        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent/>
         <comment/>
         <compiled_snapshot/>
@@ -281,12 +257,36 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-11-06 08:40:35</sys_created_on>
-        <sys_id>b56ec9fc1b831110a77e2f08b04bcb16</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2022-11-06 09:09:22</sys_created_on>
+        <sys_id>5bf411b41bc31110a77e2f08b04bcbd1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Service Now">052d05bc1b831110a77e2f08b04bcb9d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-06 08:52:37</sys_updated_on>
+        <sys_updated_on>2022-11-06 09:09:22</sys_updated_on>
+        <ui_id>2604f54c-f748-43ad-95af-dc971ee5374e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5bf411b41bc31110a77e2f08b04bcbd1"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb^id=5bf411b41bc31110a77e2f08b04bcbd1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5bf411b41bc31110a77e2f08b04bcbd1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=5bf411b41bc31110a77e2f08b04bcbd1"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Service Now">52ed85bc1b831110a77e2f08b04bcbaf</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-06 08:40:35</sys_created_on>
+        <sys_id>b56ec9fc1b831110a77e2f08b04bcb16</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Service Now">052d05bc1b831110a77e2f08b04bcb9d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-06 09:09:22</sys_updated_on>
         <ui_id>389899a3-7dfa-497d-8b89-22e9410fda21</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b56ec9fc1b831110a77e2f08b04bcb16"/>
